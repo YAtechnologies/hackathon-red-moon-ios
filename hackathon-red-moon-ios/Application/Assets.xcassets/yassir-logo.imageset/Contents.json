@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "onbording-yassir-logo-1.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "yassir-logo.pdf",
+      "idiom" : "universal",
+      "locale" : "ar"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true,
+    "template-rendering-intent" : "original"
+  }
+}

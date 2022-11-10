@@ -1,0 +1,47 @@
+//
+// Copyright (c) 2020 Yassir S.P.A. All rights reserved.
+//
+
+// MARK: - Common
+"CANCEL" = "Cancel";
+"OK" = "OK";
+"ERROR" = "Error";
+
+
+// MARK: - Onboarding Scene
+"GET_A_RIDE_IN_A_COUPLE_OF_MINUTES" = "Get a ride in a couple of minutes";
+"AFFORDABLE_FAST_AND_SECURE" = "Affordable, fast and secure";
+"GET_STARTED" = "Get Started";
+
+// MARK: - Main Scene
+"HOME" = "Home";
+"RIDE" = "Ride";
+"DISCOUNTS" = "Coupons";
+"ACCOUNT" = "Account";
+"ASSISTANCE" = "Assistance";
+
+// MARK: - Account Scene
+"MY_TRIPS" = "My Trips";
+"PAYMENT_METHODS" = "Payment methods";
+"EVALUATE_THE_APPLICATION" = "Evaluate the application";
+"TERMS_OF_USE" = "Terms of use";
+"PRIVACY_POLICY" = "Privacy Policy";
+"INVITE_A_FRIEND" = "Invite a friend";
+"LOGOUT" = "Logout";
+"UNABLE_TO_DISCONNECT" = "Unable to disconnect";
+"YASSIR_PAY" = "Yassir Pay";
+
+// MARK: - Ask For Tracking Scene
+"ASK_TRACKING_TITLE" = "We respect your privacy";
+"ASK_TRACKING_DESCRIPTION" = "YASSIR needs your permission to access information about how you’re using the app and personalize your experience.";
+"ASK_TRACKING_GROUP_TITLE" = "This permission allows us to:";
+"ASK_TRACKING_MARKETING_PERFORMANCES" = "Measure the performance of marketing campaigns.";
+"ASK_TRACKING_USER_EXPERIENCE" = "Help YASSIR provide a better user experience.";
+"ASK_TRACKING_DATA_PROTECTION" = "YASSIR will always protect your data, and will not identify you personally.";
+"ASK_TRACKING_CONTINUE_BUTTON" = "Continue";
+"ASK_TRACKING_LATER_BUTTON" = "Allow later";
+
+// MARK: - Ask For Location Scene
+"ASK_LOCATION_TITLE" = "Get the best content for you";
+"ASK_LOCATION_DESCRIPTION" = "Using your precise location allows us to provide you with the best content for your region and to support you faster when you request a ride.";
+"ASK_LOCATION_CONTINUE_BUTTON" = "Continue";

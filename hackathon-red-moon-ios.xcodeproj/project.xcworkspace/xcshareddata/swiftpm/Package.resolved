@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PhoneNumberKit",
+        "repositoryURL": "https://github.com/marmelroy/PhoneNumberKit.git",
+        "state": {
+          "branch": null,
+          "revision": "ade48cc2d09c3180ac6e179577633b8c2660a8bf",
+          "version": "3.5.0"
+        }
+      },
+      {
+        "package": "YassirAuth",
+        "repositoryURL": "git@github.com:YAtechnologies/YassirAuth.git",
+        "state": {
+          "branch": null,
+          "revision": "761eabbd10201257e4badd858cb580a3d1420e33",
+          "version": "6.0.0"
+        }
+      },
+      {
+        "package": "YassirAuthUI",
+        "repositoryURL": "git@github.com:YAtechnologies/YassirAuthUI.git",
+        "state": {
+          "branch": null,
+          "revision": "71e7b7e732abdd23efca3bd1b75067bbcc6cabd7",
+          "version": "0.12.0"
+        }
+      },
+      {
+        "package": "YassirCore",
+        "repositoryURL": "git@github.com:YAtechnologies/YassirCore.git",
+        "state": {
+          "branch": null,
+          "revision": "c8d38b1e55adb68f02da12ac5868278b2b346848",
+          "version": "1.3.0"
+        }
+      },
+      {
+        "package": "YassirHome",
+        "repositoryURL": "https://github.com/YAtechnologies/YassirHome-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "99d17acbf3b1d3324c411e60b4739a87eaa8fca9",
+          "version": "0.1.3"
+        }
+      },
+      {
+        "package": "YassirNetworking",
+        "repositoryURL": "git@github.com:YAtechnologies/YassirNetworking.git",
+        "state": {
+          "branch": null,
+          "revision": "c914f10f89d151723d753d0e81b2a18de76b36bd",
+          "version": "0.7.0"
+        }
+      },
+      {
+        "package": "YassirUI",
+        "repositoryURL": "git@github.com:YAtechnologies/YassirUI.git",
+        "state": {
+          "branch": "main",
+          "revision": "cf1b0fd712d13c2a564c92984ff6d48fbb17313b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

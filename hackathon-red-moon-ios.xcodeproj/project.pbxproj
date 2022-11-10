@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E98A240E291D59BD0083093C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A240D291D59BD0083093C /* AppDelegate.swift */; };
-		E98A2410291D59BD0083093C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A240F291D59BD0083093C /* SceneDelegate.swift */; };
-		E98A2412291D59BD0083093C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2411291D59BD0083093C /* ViewController.swift */; };
-		E98A2415291D59BD0083093C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98A2413291D59BD0083093C /* Main.storyboard */; };
 		E98A2417291D59C00083093C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98A2416291D59C00083093C /* Assets.xcassets */; };
 		E98A241A291D59C00083093C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98A2418291D59C00083093C /* LaunchScreen.storyboard */; };
 		E98A2425291D59C00083093C /* hackathon_red_moon_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2424291D59C00083093C /* hackathon_red_moon_iosTests.swift */; };
 		E98A242F291D59C00083093C /* hackathon_red_moon_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A242E291D59C00083093C /* hackathon_red_moon_iosUITests.swift */; };
 		E98A2431291D59C00083093C /* hackathon_red_moon_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2430291D59C00083093C /* hackathon_red_moon_iosUITestsLaunchTests.swift */; };
+		E98A2445291D5AEE0083093C /* LaunchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2443291D5AEE0083093C /* LaunchScene.swift */; };
+		E98A2446291D5AEE0083093C /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2444291D5AEE0083093C /* LaunchVC.swift */; };
+		E98A2449291D5BC10083093C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2448291D5BC10083093C /* TabBarController.swift */; };
+		E98A244D291D5C270083093C /* SignScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A244B291D5C270083093C /* SignScene.swift */; };
+		E98A244E291D5C270083093C /* SignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A244C291D5C270083093C /* SignVC.swift */; };
+		E98A2456291D5CA40083093C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2450291D5CA40083093C /* Keychain.swift */; };
+		E98A2457291D5CA40083093C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2451291D5CA40083093C /* NetworkManager.swift */; };
+		E98A2458291D5CA40083093C /* PairedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2452291D5CA40083093C /* PairedViewController.swift */; };
+		E98A2459291D5CA40083093C /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2453291D5CA40083093C /* UserDefaultsManager.swift */; };
+		E98A245A291D5CA40083093C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2454291D5CA40083093C /* Constants.swift */; };
+		E98A245E291D5DAF0083093C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A245D291D5DAF0083093C /* UIView+Extension.swift */; };
+		E98A2461291D61910083093C /* YassirUI in Frameworks */ = {isa = PBXBuildFile; productRef = E98A2460291D61910083093C /* YassirUI */; };
+		E98A2464291D63F50083093C /* YassirAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E98A2463291D63F50083093C /* YassirAuthUI */; };
+		E98A2466291D68B90083093C /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2465291D68B90083093C /* Localize.swift */; };
+		E98A2468291D776E0083093C /* AuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2467291D776E0083093C /* AuthHelper.swift */; };
+		E98A246A291D79230083093C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E98A2469291D79230083093C /* Localizable.strings */; };
+		E98A246E291D7A740083093C /* YassirAuth-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E98A246D291D7A740083093C /* YassirAuth-Info.plist */; };
+		E98A2471291D88C50083093C /* YassirHomeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98A2470291D88C50083093C /* YassirHomeKit */; };
+		E98A2473291D88C50083093C /* YassirHomeUI in Frameworks */ = {isa = PBXBuildFile; productRef = E98A2472291D88C50083093C /* YassirHomeUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +54,6 @@
 /* Begin PBXFileReference section */
 		E98A240A291D59BD0083093C /* hackathon-red-moon-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackathon-red-moon-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98A240D291D59BD0083093C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E98A240F291D59BD0083093C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E98A2411291D59BD0083093C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E98A2414291D59BD0083093C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E98A2416291D59C00083093C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E98A2419291D59C00083093C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E98A241B291D59C00083093C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		E98A242A291D59C00083093C /* hackathon-red-moon-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hackathon-red-moon-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98A242E291D59C00083093C /* hackathon_red_moon_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathon_red_moon_iosUITests.swift; sourceTree = "<group>"; };
 		E98A2430291D59C00083093C /* hackathon_red_moon_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathon_red_moon_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E98A2443291D5AEE0083093C /* LaunchScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScene.swift; sourceTree = "<group>"; };
+		E98A2444291D5AEE0083093C /* LaunchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
+		E98A2448291D5BC10083093C /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E98A244B291D5C270083093C /* SignScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignScene.swift; sourceTree = "<group>"; };
+		E98A244C291D5C270083093C /* SignVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignVC.swift; sourceTree = "<group>"; };
+		E98A2450291D5CA40083093C /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		E98A2451291D5CA40083093C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E98A2452291D5CA40083093C /* PairedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairedViewController.swift; sourceTree = "<group>"; };
+		E98A2453291D5CA40083093C /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		E98A2454291D5CA40083093C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E98A245D291D5DAF0083093C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E98A2465291D68B90083093C /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
+		E98A2467291D776E0083093C /* AuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHelper.swift; sourceTree = "<group>"; };
+		E98A2469291D79230083093C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E98A246D291D7A740083093C /* YassirAuth-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YassirAuth-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98A2461291D61910083093C /* YassirUI in Frameworks */,
+				E98A2471291D88C50083093C /* YassirHomeKit in Frameworks */,
+				E98A2473291D88C50083093C /* YassirHomeUI in Frameworks */,
+				E98A2464291D63F50083093C /* YassirAuthUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +131,9 @@
 		E98A240C291D59BD0083093C /* hackathon-red-moon-ios */ = {
 			isa = PBXGroup;
 			children = (
-				E98A240D291D59BD0083093C /* AppDelegate.swift */,
-				E98A240F291D59BD0083093C /* SceneDelegate.swift */,
-				E98A2411291D59BD0083093C /* ViewController.swift */,
-				E98A2413291D59BD0083093C /* Main.storyboard */,
-				E98A2416291D59C00083093C /* Assets.xcassets */,
-				E98A2418291D59C00083093C /* LaunchScreen.storyboard */,
-				E98A241B291D59C00083093C /* Info.plist */,
+				E98A2447291D5B150083093C /* Application */,
+				E98A243F291D5ABB0083093C /* Scenes */,
+				E98A244F291D5C510083093C /* Utilities */,
 			);
 			path = "hackathon-red-moon-ios";
 			sourceTree = "<group>";
@@ -127,6 +155,70 @@
 			path = "hackathon-red-moon-iosUITests";
 			sourceTree = "<group>";
 		};
+		E98A243F291D5ABB0083093C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E98A2442291D5AE20083093C /* LaunchVC */,
+				E98A244A291D5C160083093C /* SignVC */,
+				E98A245C291D5D690083093C /* Extensions */,
+				E98A2448291D5BC10083093C /* TabBarController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E98A2442291D5AE20083093C /* LaunchVC */ = {
+			isa = PBXGroup;
+			children = (
+				E98A2443291D5AEE0083093C /* LaunchScene.swift */,
+				E98A2444291D5AEE0083093C /* LaunchVC.swift */,
+			);
+			path = LaunchVC;
+			sourceTree = "<group>";
+		};
+		E98A2447291D5B150083093C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E98A2416291D59C00083093C /* Assets.xcassets */,
+				E98A2469291D79230083093C /* Localizable.strings */,
+				E98A240D291D59BD0083093C /* AppDelegate.swift */,
+				E98A2418291D59C00083093C /* LaunchScreen.storyboard */,
+				E98A241B291D59C00083093C /* Info.plist */,
+				E98A246D291D7A740083093C /* YassirAuth-Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E98A244A291D5C160083093C /* SignVC */ = {
+			isa = PBXGroup;
+			children = (
+				E98A244B291D5C270083093C /* SignScene.swift */,
+				E98A244C291D5C270083093C /* SignVC.swift */,
+			);
+			path = SignVC;
+			sourceTree = "<group>";
+		};
+		E98A244F291D5C510083093C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E98A2454291D5CA40083093C /* Constants.swift */,
+				E98A2450291D5CA40083093C /* Keychain.swift */,
+				E98A2451291D5CA40083093C /* NetworkManager.swift */,
+				E98A2452291D5CA40083093C /* PairedViewController.swift */,
+				E98A2453291D5CA40083093C /* UserDefaultsManager.swift */,
+				E98A2465291D68B90083093C /* Localize.swift */,
+				E98A2467291D776E0083093C /* AuthHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E98A245C291D5D690083093C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E98A245D291D5DAF0083093C /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +235,12 @@
 			dependencies = (
 			);
 			name = "hackathon-red-moon-ios";
+			packageProductDependencies = (
+				E98A2460291D61910083093C /* YassirUI */,
+				E98A2463291D63F50083093C /* YassirAuthUI */,
+				E98A2470291D88C50083093C /* YassirHomeKit */,
+				E98A2472291D88C50083093C /* YassirHomeUI */,
+			);
 			productName = "hackathon-red-moon-ios";
 			productReference = E98A240A291D59BD0083093C /* hackathon-red-moon-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +313,11 @@
 				Base,
 			);
 			mainGroup = E98A2401291D59BD0083093C;
+			packageReferences = (
+				E98A245F291D61910083093C /* XCRemoteSwiftPackageReference "YassirUI" */,
+				E98A2462291D63F50083093C /* XCRemoteSwiftPackageReference "YassirAuthUI" */,
+				E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */,
+			);
 			productRefGroup = E98A240B291D59BD0083093C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +335,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98A241A291D59C00083093C /* LaunchScreen.storyboard in Resources */,
+				E98A246E291D7A740083093C /* YassirAuth-Info.plist in Resources */,
+				E98A246A291D79230083093C /* Localizable.strings in Resources */,
 				E98A2417291D59C00083093C /* Assets.xcassets in Resources */,
-				E98A2415291D59BD0083093C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +362,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98A2412291D59BD0083093C /* ViewController.swift in Sources */,
+				E98A244D291D5C270083093C /* SignScene.swift in Sources */,
+				E98A245E291D5DAF0083093C /* UIView+Extension.swift in Sources */,
+				E98A245A291D5CA40083093C /* Constants.swift in Sources */,
+				E98A244E291D5C270083093C /* SignVC.swift in Sources */,
+				E98A2445291D5AEE0083093C /* LaunchScene.swift in Sources */,
+				E98A2458291D5CA40083093C /* PairedViewController.swift in Sources */,
+				E98A2449291D5BC10083093C /* TabBarController.swift in Sources */,
+				E98A2457291D5CA40083093C /* NetworkManager.swift in Sources */,
+				E98A2459291D5CA40083093C /* UserDefaultsManager.swift in Sources */,
+				E98A2468291D776E0083093C /* AuthHelper.swift in Sources */,
 				E98A240E291D59BD0083093C /* AppDelegate.swift in Sources */,
-				E98A2410291D59BD0083093C /* SceneDelegate.swift in Sources */,
+				E98A2466291D68B90083093C /* Localize.swift in Sources */,
+				E98A2446291D5AEE0083093C /* LaunchVC.swift in Sources */,
+				E98A2456291D5CA40083093C /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +412,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E98A2413291D59BD0083093C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E98A2414291D59BD0083093C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E98A2418291D59C00083093C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,20 +546,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				DEVELOPMENT_TEAM = 5PL9B9HNUS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "hackathon-red-moon-ios/Info.plist";
+				INFOPLIST_FILE = "hackathon-red-moon-ios/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ya.hackathon.redmoon.hackathon-red-moon-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ya.hackathon-red-moon-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,20 +574,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6M88W5GW8G;
+				DEVELOPMENT_TEAM = 5PL9B9HNUS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "hackathon-red-moon-ios/Info.plist";
+				INFOPLIST_FILE = "hackathon-red-moon-ios/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ya.hackathon.redmoon.hackathon-red-moon-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ya.hackathon-red-moon-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -624,6 +731,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E98A245F291D61910083093C /* XCRemoteSwiftPackageReference "YassirUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:YAtechnologies/YassirUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		E98A2462291D63F50083093C /* XCRemoteSwiftPackageReference "YassirAuthUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:YAtechnologies/YassirAuthUI.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.12.0;
+			};
+		};
+		E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/YAtechnologies/YassirHome-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E98A2460291D61910083093C /* YassirUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E98A245F291D61910083093C /* XCRemoteSwiftPackageReference "YassirUI" */;
+			productName = YassirUI;
+		};
+		E98A2463291D63F50083093C /* YassirAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E98A2462291D63F50083093C /* XCRemoteSwiftPackageReference "YassirAuthUI" */;
+			productName = YassirAuthUI;
+		};
+		E98A2470291D88C50083093C /* YassirHomeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */;
+			productName = YassirHomeKit;
+		};
+		E98A2472291D88C50083093C /* YassirHomeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */;
+			productName = YassirHomeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E98A2402291D59BD0083093C /* Project object */;
 }

@@ -14,6 +14,14 @@ class ServiceDetailsListView: UIView {
             self.filterCollectionView.reloadData()
         }
     }
+    
+    @objc
+    func touchAction(){
+        let ratingCommentViewController = DetailsViewVC()
+        let controller = YassirUI.SheetViewController(contentViewController: ratingCommentViewController)
+        self.parentViewController?.present(controller, animated: true, completion: nil)
+    }
+    
     let backButton: UIButton = {
         let v = UIButton(type: .system)
         v.translatesAutoresizingMaskIntoConstraints = false
@@ -338,6 +346,10 @@ class ServiceDetailsListView: UIView {
     }
     
     private func setup() {
+        
+        let gesture =  UITapGestureRecognizer(target: self, action:  #selector(touchAction))
+            self.addGestureRecognizer(gesture)
+        
         backgroundColor = .gray50
         filterCollectionView.dataSource = self
         filterCollectionView.delegate = self

@@ -40,6 +40,8 @@
 		E935946A291E68BE00138329 /* ServiceDetailsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359469291E68BE00138329 /* ServiceDetailsListView.swift */; };
 		E9647728291E6E5700E8E35F /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = E9647727291E6E5700E8E35F /* Stevia */; };
 		E964772A291E707100E8E35F /* ServiceDetailsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9647729291E707100E8E35F /* ServiceDetailsListVC.swift */; };
+		E9647743291E8D8D00E8E35F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9647742291E8D8D00E8E35F /* DetailsView.swift */; };
+		E9647745291E8F1700E8E35F /* DetailsViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9647744291E8F1700E8E35F /* DetailsViewVC.swift */; };
 		E98A240E291D59BD0083093C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A240D291D59BD0083093C /* AppDelegate.swift */; };
 		E98A2417291D59C00083093C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98A2416291D59C00083093C /* Assets.xcassets */; };
 		E98A241A291D59C00083093C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98A2418291D59C00083093C /* LaunchScreen.storyboard */; };
@@ -131,6 +133,8 @@
 		E964773F291E840200E8E35F /* writingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writingVC.swift; sourceTree = "<group>"; };
 		E9647740291E840400E8E35F /* contentCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentCreationView.swift; sourceTree = "<group>"; };
 		E9647741291E840600E8E35F /* contentCreationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentCreationVC.swift; sourceTree = "<group>"; };
+		E9647742291E8D8D00E8E35F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		E9647744291E8F1700E8E35F /* DetailsViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewVC.swift; sourceTree = "<group>"; };
 		E98A240A291D59BD0083093C /* hackathon-red-moon-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackathon-red-moon-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98A240D291D59BD0083093C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98A2416291D59C00083093C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 			children = (
 				E9359469291E68BE00138329 /* ServiceDetailsListView.swift */,
 				E9647729291E707100E8E35F /* ServiceDetailsListVC.swift */,
+				E9647742291E8D8D00E8E35F /* DetailsView.swift */,
+				E9647744291E8F1700E8E35F /* DetailsViewVC.swift */,
 			);
 			path = TrainingVC;
 			sourceTree = "<group>";
@@ -600,9 +606,11 @@
 				E935943E291E4A3C00138329 /* HomeScreenViewModel.swift in Sources */,
 				E98A240E291D59BD0083093C /* AppDelegate.swift in Sources */,
 				E98A2466291D68B90083093C /* Localize.swift in Sources */,
+				E9647743291E8D8D00E8E35F /* DetailsView.swift in Sources */,
 				E964772A291E707100E8E35F /* ServiceDetailsListVC.swift in Sources */,
 				E9359456291E4C5F00138329 /* Platform.swift in Sources */,
 				E935941E291E36BE00138329 /* MainScene.swift in Sources */,
+				E9647745291E8F1700E8E35F /* DetailsViewVC.swift in Sources */,
 				E935943F291E4A3C00138329 /* HomeViewModel.swift in Sources */,
 				E9359435291E4A1D00138329 /* BannerView.swift in Sources */,
 				E9359441291E4A3C00138329 /* HomeScreen.swift in Sources */,

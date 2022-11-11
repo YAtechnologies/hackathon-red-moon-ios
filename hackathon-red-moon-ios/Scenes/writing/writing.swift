@@ -6,10 +6,10 @@ import UIKit
 import YassirUI
 import Stevia
 
-class ServiceDetailsListView: UIView {
+class writing: UIView {
     
     //TODO: This need to be changed, it is copied for reference...
-    var filterArray :[String] = ["Software development","Graphic design","Soft Skills","Finance and accounting","Entrepreneurship and business management"] {
+    var filterArray :[String] = ["Proofreading","Translation","Article creation","Content layout design"] {
         didSet{
             self.filterCollectionView.reloadData()
         }
@@ -455,7 +455,7 @@ class ServiceDetailsListView: UIView {
     }
 }
 
-extension ServiceDetailsListView :  UICollectionViewDataSource {
+extension writing :  UICollectionViewDataSource {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int{
         return 1
@@ -479,7 +479,7 @@ extension ServiceDetailsListView :  UICollectionViewDataSource {
     }
 }
 
-extension ServiceDetailsListView : UICollectionViewDelegate{
+extension writing : UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         selectedIndex = indexPath.row
         collectionView.reloadData()
@@ -487,56 +487,3 @@ extension ServiceDetailsListView : UICollectionViewDelegate{
     }
 }
 
-
-class HistoryTabCollectionViewCell: UICollectionViewCell {
-    
-    public let titleLabel: UILabel = {
-        let v = UILabel()
-        v.textColor = .black
-        v.font = .preferredFont(forYassirTextStyle: TextStyle.Caption.regular)
-        return v
-    }()
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-        layout()
-    }
-    
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        setup()
-        layout()
-    }
-    
-    private func setup() {
-        self.layer.borderWidth = 2
-        backgroundColor = .white
-        self.layer.borderColor = UIColor.clear.cgColor
-        subviews(titleLabel)
-    }
-    
-    override func layoutSubviews() {
-        self.layer.cornerRadius = frame.height/2
-        super.layoutSubviews()
-    }
-    
-    
-    private func layout() {
-        titleLabel.leading(12).trailing(12).top(0).bottom(0).height(28)
-    }
-    
-    public func setSelected(){
-        titleLabel.textColor = .white
-        self.backgroundColor = .go500
-        self.layer.borderColor = UIColor.clear.cgColor
-    }
-    
-    public func setUnSelected(){
-        self.layer.borderColor = UIColor.gray200.cgColor
-        titleLabel.textColor = .black
-        self.backgroundColor = .clear
-    }
-    
-    
-}

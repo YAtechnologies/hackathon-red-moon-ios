@@ -6,7 +6,9 @@ import UIKit
 import YassirUI
 import Stevia
 
-class ServiceDetailsListVC: PairedViewController<ServiceDetailsListView> {
+class financeVC: PairedViewController<finance> {
+
+    weak var delegate : SignVCDelegate?
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)

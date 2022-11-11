@@ -4,10 +4,9 @@
 
 import UIKit
 import YassirUI
-import Stevia
 
-class ServiceDetailsListVC: PairedViewController<ServiceDetailsListView> {
-    
+class contentCreationVC: PairedViewController<contentCreationView> {
+
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
     }

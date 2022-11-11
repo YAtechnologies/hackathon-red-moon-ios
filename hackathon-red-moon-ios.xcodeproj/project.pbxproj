@@ -117,6 +117,20 @@
 		E9359466291E516A00138329 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		E9359469291E68BE00138329 /* ServiceDetailsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsListView.swift; sourceTree = "<group>"; };
 		E9647729291E707100E8E35F /* ServiceDetailsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsListVC.swift; sourceTree = "<group>"; };
+		E9647734291E83EA00E8E35F /* Health.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
+		E9647735291E83ED00E8E35F /* HealthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthVC.swift; sourceTree = "<group>"; };
+		E9647736291E83EF00E8E35F /* digitalMarketing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digitalMarketing.swift; sourceTree = "<group>"; };
+		E9647737291E83F200E8E35F /* ServiceDetailsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsListVC.swift; sourceTree = "<group>"; };
+		E9647738291E83F400E8E35F /* artisanalMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artisanalMarket.swift; sourceTree = "<group>"; };
+		E9647739291E83F600E8E35F /* artisanalMarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artisanalMarketVC.swift; sourceTree = "<group>"; };
+		E964773A291E83F800E8E35F /* finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finance.swift; sourceTree = "<group>"; };
+		E964773B291E83FA00E8E35F /* financeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeVC.swift; sourceTree = "<group>"; };
+		E964773C291E83FD00E8E35F /* legal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = legal.swift; sourceTree = "<group>"; };
+		E964773D291E83FE00E8E35F /* legalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = legalVC.swift; sourceTree = "<group>"; };
+		E964773E291E840000E8E35F /* writing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writing.swift; sourceTree = "<group>"; };
+		E964773F291E840200E8E35F /* writingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writingVC.swift; sourceTree = "<group>"; };
+		E9647740291E840400E8E35F /* contentCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentCreationView.swift; sourceTree = "<group>"; };
+		E9647741291E840600E8E35F /* contentCreationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentCreationVC.swift; sourceTree = "<group>"; };
 		E98A240A291D59BD0083093C /* hackathon-red-moon-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackathon-red-moon-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98A240D291D59BD0083093C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98A2416291D59C00083093C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -204,6 +218,69 @@
 			path = TrainingVC;
 			sourceTree = "<group>";
 		};
+		E964772D291E836300E8E35F /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				E9647734291E83EA00E8E35F /* Health.swift */,
+				E9647735291E83ED00E8E35F /* HealthVC.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		E964772E291E838C00E8E35F /* digitalMarketing */ = {
+			isa = PBXGroup;
+			children = (
+				E9647737291E83F200E8E35F /* ServiceDetailsListVC.swift */,
+				E9647736291E83EF00E8E35F /* digitalMarketing.swift */,
+			);
+			path = digitalMarketing;
+			sourceTree = "<group>";
+		};
+		E964772F291E839900E8E35F /* artisanalMarket */ = {
+			isa = PBXGroup;
+			children = (
+				E9647738291E83F400E8E35F /* artisanalMarket.swift */,
+				E9647739291E83F600E8E35F /* artisanalMarketVC.swift */,
+			);
+			path = artisanalMarket;
+			sourceTree = "<group>";
+		};
+		E9647730291E83B300E8E35F /* finance */ = {
+			isa = PBXGroup;
+			children = (
+				E964773A291E83F800E8E35F /* finance.swift */,
+				E964773B291E83FA00E8E35F /* financeVC.swift */,
+			);
+			path = finance;
+			sourceTree = "<group>";
+		};
+		E9647731291E83BA00E8E35F /* legal */ = {
+			isa = PBXGroup;
+			children = (
+				E964773C291E83FD00E8E35F /* legal.swift */,
+				E964773D291E83FE00E8E35F /* legalVC.swift */,
+			);
+			path = legal;
+			sourceTree = "<group>";
+		};
+		E9647732291E83C600E8E35F /* writing */ = {
+			isa = PBXGroup;
+			children = (
+				E964773E291E840000E8E35F /* writing.swift */,
+				E964773F291E840200E8E35F /* writingVC.swift */,
+			);
+			path = writing;
+			sourceTree = "<group>";
+		};
+		E9647733291E83D200E8E35F /* contentCreation */ = {
+			isa = PBXGroup;
+			children = (
+				E9647740291E840400E8E35F /* contentCreationView.swift */,
+				E9647741291E840600E8E35F /* contentCreationVC.swift */,
+			);
+			path = contentCreation;
+			sourceTree = "<group>";
+		};
 		E98A2401291D59BD0083093C = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +331,13 @@
 		E98A243F291D5ABB0083093C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E9647733291E83D200E8E35F /* contentCreation */,
+				E9647732291E83C600E8E35F /* writing */,
+				E9647731291E83BA00E8E35F /* legal */,
+				E9647730291E83B300E8E35F /* finance */,
+				E964772F291E839900E8E35F /* artisanalMarket */,
+				E964772E291E838C00E8E35F /* digitalMarketing */,
+				E964772D291E836300E8E35F /* Health */,
 				E9359468291E68A500138329 /* TrainingVC */,
 				E98A244A291D5C160083093C /* SignVC */,
 				E98A2442291D5AE20083093C /* LaunchVC */,

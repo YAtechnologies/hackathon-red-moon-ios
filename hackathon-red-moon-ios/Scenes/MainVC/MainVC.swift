@@ -60,30 +60,28 @@ class MainViewController: UITabBarController {
     private func traditionalShortcutHandling(_ shortcut: Shortcut) {
         switch shortcut.platform {
         case .express:
-            let serviceDetailsListVC = ServiceDetailsListVC()
-            serviceDetailsListVC.modalPresentationStyle = .fullScreen
-            present(serviceDetailsListVC, animated: true)
+            break
         case .market:
             break
         case .rideHailing:
-            print("BLOP")
-            //viewControllers?[0] = ApplicationManagerHostViewController(managedViewController: rideApplication.viewController)
+            break
         case .Training:
-            print("BLOP")
+            let serviceDetailsListVC = ServiceDetailsListVC()
+            present(serviceDetailsListVC, animated: true)
         case .Health:
-            print("BLOP")
+            break
         case .DigitalMarketing:
-            print("BLOP")
+            break
         case .ArtisanalMarket:
-            print("BLOP")
+            break
         case .ContentCreation:
-            print("BLOP")
+            break
         case .Finance:
-            print("BLOP")
+            break
         case .WritingTranslation:
-            print("BLOP")
+            break
         case .Legal:
-            print("BLOP")
+            break
         }
     }
 }

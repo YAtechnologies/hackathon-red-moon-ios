@@ -6,7 +6,8 @@ import UIKit
 import YassirUI
 import Stevia
 
-class ServiceDetailsListVC: PairedViewController<ServiceDetailsListView> {
+class digitalMarketingVC: PairedViewController<digitalMarketing> {
+
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)

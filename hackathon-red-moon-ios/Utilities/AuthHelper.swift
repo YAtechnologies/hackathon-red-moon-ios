@@ -2,6 +2,7 @@
 // Copyright (c) 2020 Yassir S.P.A. All rights reserved.
 //
 
+import YassirAppKit
 import YassirAuth
 
 final class AuthHelper {
@@ -21,5 +22,16 @@ final class AuthHelper {
 
     func deletePersistedAccount() throws {
         try authClient.deletePersistedAccount()
+    }
+}
+
+
+extension AuthHelper {
+    var authorizationState: AuthorizationState {
+        if let account = currentAccount {
+            return .authorized(account.token)
+        } else {
+            return .none
+        }
     }
 }

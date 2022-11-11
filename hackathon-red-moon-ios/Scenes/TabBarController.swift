@@ -1,7 +1,6 @@
 
 import UIKit
-import YassirHomeUI
-
+/*
 class TabBarController: UITabBarController, UITabBarControllerDelegate {
     
     override func viewDidLoad() {
@@ -11,9 +10,9 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let projectsTab = UINavigationController(rootViewController: SignVC())
-        let createTab = UINavigationController(rootViewController: SignVC())
-        let settingsTab = UINavigationController(rootViewController: SignVC())
+        let projectsTab = UINavigationController(rootViewController: HomeViewController())
+        let createTab = UINavigationController(rootViewController: HomeViewController())
+        let settingsTab = UINavigationController(rootViewController: HomeViewController())
         
         let projectsIcon = UITabBarItem(title: "HOME", image: UIImage(named: "homeNS.png"), selectedImage: UIImage(named: "homeS.png"))
         let createIcon = UITabBarItem(title: "SEARCH", image: UIImage(named: "searchNS.png"), selectedImage: UIImage(named: "searchS.png"))
@@ -39,3 +38,4 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         return true
     }
 }
+*/

@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E935941E291E36BE00138329 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935941D291E36BE00138329 /* MainScene.swift */; };
+		E9359420291E36CA00138329 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935941F291E36CA00138329 /* MainVC.swift */; };
+		E935942E291E3B8900138329 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = E935942D291E3B8900138329 /* SDWebImage */; };
+		E9359432291E484200138329 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359431291E484200138329 /* GridLayout.swift */; };
+		E9359435291E4A1D00138329 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359434291E4A1D00138329 /* BannerView.swift */; };
+		E9359438291E4A2D00138329 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359436291E4A2D00138329 /* SliderView.swift */; };
+		E9359439291E4A2D00138329 /* SliderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359437291E4A2D00138329 /* SliderViewModel.swift */; };
+		E935943E291E4A3C00138329 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935943A291E4A3C00138329 /* HomeScreenViewModel.swift */; };
+		E935943F291E4A3C00138329 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935943B291E4A3C00138329 /* HomeViewModel.swift */; };
+		E9359440291E4A3C00138329 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935943C291E4A3C00138329 /* HomeView.swift */; };
+		E9359441291E4A3C00138329 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935943D291E4A3C00138329 /* HomeScreen.swift */; };
+		E9359445291E4A4700138329 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359442291E4A4700138329 /* ServiceView.swift */; };
+		E9359446291E4A4700138329 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359443291E4A4700138329 /* ServiceViewModel.swift */; };
+		E9359447291E4A4700138329 /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359444291E4A4700138329 /* ShortcutView.swift */; };
+		E935944A291E4A5300138329 /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359448291E4A5300138329 /* HeaderViewModel.swift */; };
+		E935944B291E4A5300138329 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359449291E4A5300138329 /* HeaderView.swift */; };
+		E9359452291E4C5F00138329 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935944C291E4C5E00138329 /* Slider.swift */; };
+		E9359453291E4C5F00138329 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935944D291E4C5F00138329 /* Component.swift */; };
+		E9359454291E4C5F00138329 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935944E291E4C5F00138329 /* Shortcut.swift */; };
+		E9359455291E4C5F00138329 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935944F291E4C5F00138329 /* Service.swift */; };
+		E9359456291E4C5F00138329 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359450291E4C5F00138329 /* Platform.swift */; };
+		E9359457291E4C5F00138329 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359451291E4C5F00138329 /* Banner.swift */; };
+		E935945A291E4E7000138329 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359458291E4E7000138329 /* ImageLoader.swift */; };
+		E935945B291E4E7000138329 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359459291E4E7000138329 /* ImageView.swift */; };
+		E935945D291E4E7800138329 /* CircledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935945C291E4E7800138329 /* CircledButton.swift */; };
+		E9359460291E4E8600138329 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935945E291E4E8600138329 /* EmptyStateView.swift */; };
+		E9359461291E4E8600138329 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935945F291E4E8600138329 /* LoadingView.swift */; };
+		E9359464291E501600138329 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359462291E501600138329 /* SafariView.swift */; };
+		E9359465291E501600138329 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359463291E501600138329 /* ShimmerView.swift */; };
+		E9359467291E516A00138329 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359466291E516A00138329 /* Bundle.swift */; };
+		E935946A291E68BE00138329 /* ServiceDetailsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9359469291E68BE00138329 /* ServiceDetailsListView.swift */; };
+		E9647728291E6E5700E8E35F /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = E9647727291E6E5700E8E35F /* Stevia */; };
+		E964772A291E707100E8E35F /* ServiceDetailsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9647729291E707100E8E35F /* ServiceDetailsListVC.swift */; };
 		E98A240E291D59BD0083093C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A240D291D59BD0083093C /* AppDelegate.swift */; };
 		E98A2417291D59C00083093C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98A2416291D59C00083093C /* Assets.xcassets */; };
 		E98A241A291D59C00083093C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98A2418291D59C00083093C /* LaunchScreen.storyboard */; };
@@ -30,8 +63,9 @@
 		E98A2468291D776E0083093C /* AuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A2467291D776E0083093C /* AuthHelper.swift */; };
 		E98A246A291D79230083093C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E98A2469291D79230083093C /* Localizable.strings */; };
 		E98A246E291D7A740083093C /* YassirAuth-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E98A246D291D7A740083093C /* YassirAuth-Info.plist */; };
-		E98A2471291D88C50083093C /* YassirHomeKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98A2470291D88C50083093C /* YassirHomeKit */; };
-		E98A2473291D88C50083093C /* YassirHomeUI in Frameworks */ = {isa = PBXBuildFile; productRef = E98A2472291D88C50083093C /* YassirHomeUI */; };
+		E98A2476291D9DF60083093C /* YassirAppKit in Frameworks */ = {isa = PBXBuildFile; productRef = E98A2475291D9DF60083093C /* YassirAppKit */; };
+		E98A247A291DA4BE0083093C /* YassirHome-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E98A2479291DA4BE0083093C /* YassirHome-Config.plist */; };
+		E98A247C291DA55B0083093C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A247B291DA55B0083093C /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +86,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E935941D291E36BE00138329 /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		E935941F291E36CA00138329 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = MainVC/MainVC.swift; sourceTree = "<group>"; };
+		E9359431291E484200138329 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		E9359434291E4A1D00138329 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		E9359436291E4A2D00138329 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		E9359437291E4A2D00138329 /* SliderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewModel.swift; sourceTree = "<group>"; };
+		E935943A291E4A3C00138329 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		E935943B291E4A3C00138329 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E935943C291E4A3C00138329 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E935943D291E4A3C00138329 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E9359442291E4A4700138329 /* ServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		E9359443291E4A4700138329 /* ServiceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		E9359444291E4A4700138329 /* ShortcutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutView.swift; sourceTree = "<group>"; };
+		E9359448291E4A5300138329 /* HeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
+		E9359449291E4A5300138329 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E935944C291E4C5E00138329 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		E935944D291E4C5F00138329 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		E935944E291E4C5F00138329 /* Shortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		E935944F291E4C5F00138329 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E9359450291E4C5F00138329 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		E9359451291E4C5F00138329 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		E9359458291E4E7000138329 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E9359459291E4E7000138329 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		E935945C291E4E7800138329 /* CircledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircledButton.swift; sourceTree = "<group>"; };
+		E935945E291E4E8600138329 /* EmptyStateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		E935945F291E4E8600138329 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E9359462291E501600138329 /* SafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		E9359463291E501600138329 /* ShimmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
+		E9359466291E516A00138329 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		E9359469291E68BE00138329 /* ServiceDetailsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsListView.swift; sourceTree = "<group>"; };
+		E9647729291E707100E8E35F /* ServiceDetailsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsListVC.swift; sourceTree = "<group>"; };
 		E98A240A291D59BD0083093C /* hackathon-red-moon-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackathon-red-moon-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98A240D291D59BD0083093C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98A2416291D59C00083093C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +142,8 @@
 		E98A2467291D776E0083093C /* AuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHelper.swift; sourceTree = "<group>"; };
 		E98A2469291D79230083093C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		E98A246D291D7A740083093C /* YassirAuth-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YassirAuth-Info.plist"; sourceTree = "<group>"; };
+		E98A2479291DA4BE0083093C /* YassirHome-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YassirHome-Config.plist"; sourceTree = "<group>"; };
+		E98A247B291DA55B0083093C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +151,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9647728291E6E5700E8E35F /* Stevia in Frameworks */,
 				E98A2461291D61910083093C /* YassirUI in Frameworks */,
-				E98A2471291D88C50083093C /* YassirHomeKit in Frameworks */,
-				E98A2473291D88C50083093C /* YassirHomeUI in Frameworks */,
 				E98A2464291D63F50083093C /* YassirAuthUI in Frameworks */,
+				E935942E291E3B8900138329 /* SDWebImage in Frameworks */,
+				E98A2476291D9DF60083093C /* YassirAppKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +176,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9359433291E49FD00138329 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E9359449291E4A5300138329 /* HeaderView.swift */,
+				E9359448291E4A5300138329 /* HeaderViewModel.swift */,
+				E9359442291E4A4700138329 /* ServiceView.swift */,
+				E9359443291E4A4700138329 /* ServiceViewModel.swift */,
+				E9359444291E4A4700138329 /* ShortcutView.swift */,
+				E935943D291E4A3C00138329 /* HomeScreen.swift */,
+				E935943A291E4A3C00138329 /* HomeScreenViewModel.swift */,
+				E935943C291E4A3C00138329 /* HomeView.swift */,
+				E935943B291E4A3C00138329 /* HomeViewModel.swift */,
+				E9359436291E4A2D00138329 /* SliderView.swift */,
+				E9359437291E4A2D00138329 /* SliderViewModel.swift */,
+				E9359434291E4A1D00138329 /* BannerView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E9359468291E68A500138329 /* TrainingVC */ = {
+			isa = PBXGroup;
+			children = (
+				E9359469291E68BE00138329 /* ServiceDetailsListView.swift */,
+				E9647729291E707100E8E35F /* ServiceDetailsListVC.swift */,
+			);
+			path = TrainingVC;
+			sourceTree = "<group>";
+		};
 		E98A2401291D59BD0083093C = {
 			isa = PBXGroup;
 			children = (
@@ -158,8 +254,12 @@
 		E98A243F291D5ABB0083093C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				E98A2442291D5AE20083093C /* LaunchVC */,
+				E9359468291E68A500138329 /* TrainingVC */,
 				E98A244A291D5C160083093C /* SignVC */,
+				E98A2442291D5AE20083093C /* LaunchVC */,
+				E9359433291E49FD00138329 /* Main */,
+				E935941D291E36BE00138329 /* MainScene.swift */,
+				E935941F291E36CA00138329 /* MainVC.swift */,
 				E98A245C291D5D690083093C /* Extensions */,
 				E98A2448291D5BC10083093C /* TabBarController.swift */,
 			);
@@ -184,6 +284,7 @@
 				E98A2418291D59C00083093C /* LaunchScreen.storyboard */,
 				E98A241B291D59C00083093C /* Info.plist */,
 				E98A246D291D7A740083093C /* YassirAuth-Info.plist */,
+				E98A2479291DA4BE0083093C /* YassirHome-Config.plist */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -200,6 +301,19 @@
 		E98A244F291D5C510083093C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E9359462291E501600138329 /* SafariView.swift */,
+				E9359463291E501600138329 /* ShimmerView.swift */,
+				E935945E291E4E8600138329 /* EmptyStateView.swift */,
+				E935945F291E4E8600138329 /* LoadingView.swift */,
+				E935945C291E4E7800138329 /* CircledButton.swift */,
+				E9359458291E4E7000138329 /* ImageLoader.swift */,
+				E9359459291E4E7000138329 /* ImageView.swift */,
+				E9359451291E4C5F00138329 /* Banner.swift */,
+				E935944D291E4C5F00138329 /* Component.swift */,
+				E9359450291E4C5F00138329 /* Platform.swift */,
+				E935944F291E4C5F00138329 /* Service.swift */,
+				E935944E291E4C5F00138329 /* Shortcut.swift */,
+				E935944C291E4C5E00138329 /* Slider.swift */,
 				E98A2454291D5CA40083093C /* Constants.swift */,
 				E98A2450291D5CA40083093C /* Keychain.swift */,
 				E98A2451291D5CA40083093C /* NetworkManager.swift */,
@@ -207,6 +321,7 @@
 				E98A2453291D5CA40083093C /* UserDefaultsManager.swift */,
 				E98A2465291D68B90083093C /* Localize.swift */,
 				E98A2467291D776E0083093C /* AuthHelper.swift */,
+				E9359431291E484200138329 /* GridLayout.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -214,7 +329,9 @@
 		E98A245C291D5D690083093C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E9359466291E516A00138329 /* Bundle.swift */,
 				E98A245D291D5DAF0083093C /* UIView+Extension.swift */,
+				E98A247B291DA55B0083093C /* UIImage+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -238,8 +355,9 @@
 			packageProductDependencies = (
 				E98A2460291D61910083093C /* YassirUI */,
 				E98A2463291D63F50083093C /* YassirAuthUI */,
-				E98A2470291D88C50083093C /* YassirHomeKit */,
-				E98A2472291D88C50083093C /* YassirHomeUI */,
+				E98A2475291D9DF60083093C /* YassirAppKit */,
+				E935942D291E3B8900138329 /* SDWebImage */,
+				E9647727291E6E5700E8E35F /* Stevia */,
 			);
 			productName = "hackathon-red-moon-ios";
 			productReference = E98A240A291D59BD0083093C /* hackathon-red-moon-ios.app */;
@@ -316,7 +434,9 @@
 			packageReferences = (
 				E98A245F291D61910083093C /* XCRemoteSwiftPackageReference "YassirUI" */,
 				E98A2462291D63F50083093C /* XCRemoteSwiftPackageReference "YassirAuthUI" */,
-				E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */,
+				E98A2474291D9DF60083093C /* XCRemoteSwiftPackageReference "YassirAppKit" */,
+				E935942C291E3B8900138329 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				E9647726291E6E5700E8E35F /* XCRemoteSwiftPackageReference "Stevia" */,
 			);
 			productRefGroup = E98A240B291D59BD0083093C /* Products */;
 			projectDirPath = "";
@@ -336,6 +456,7 @@
 			files = (
 				E98A241A291D59C00083093C /* LaunchScreen.storyboard in Resources */,
 				E98A246E291D7A740083093C /* YassirAuth-Info.plist in Resources */,
+				E98A247A291DA4BE0083093C /* YassirHome-Config.plist in Resources */,
 				E98A246A291D79230083093C /* Localizable.strings in Resources */,
 				E98A2417291D59C00083093C /* Assets.xcassets in Resources */,
 			);
@@ -363,19 +484,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98A244D291D5C270083093C /* SignScene.swift in Sources */,
+				E9359467291E516A00138329 /* Bundle.swift in Sources */,
+				E9359439291E4A2D00138329 /* SliderViewModel.swift in Sources */,
+				E9359420291E36CA00138329 /* MainVC.swift in Sources */,
+				E9359438291E4A2D00138329 /* SliderView.swift in Sources */,
 				E98A245E291D5DAF0083093C /* UIView+Extension.swift in Sources */,
 				E98A245A291D5CA40083093C /* Constants.swift in Sources */,
+				E935945D291E4E7800138329 /* CircledButton.swift in Sources */,
+				E9359432291E484200138329 /* GridLayout.swift in Sources */,
+				E9359447291E4A4700138329 /* ShortcutView.swift in Sources */,
+				E9359465291E501600138329 /* ShimmerView.swift in Sources */,
 				E98A244E291D5C270083093C /* SignVC.swift in Sources */,
+				E98A247C291DA55B0083093C /* UIImage+Extension.swift in Sources */,
+				E9359440291E4A3C00138329 /* HomeView.swift in Sources */,
+				E935945B291E4E7000138329 /* ImageView.swift in Sources */,
+				E935945A291E4E7000138329 /* ImageLoader.swift in Sources */,
+				E9359455291E4C5F00138329 /* Service.swift in Sources */,
 				E98A2445291D5AEE0083093C /* LaunchScene.swift in Sources */,
+				E9359446291E4A4700138329 /* ServiceViewModel.swift in Sources */,
 				E98A2458291D5CA40083093C /* PairedViewController.swift in Sources */,
+				E9359445291E4A4700138329 /* ServiceView.swift in Sources */,
 				E98A2449291D5BC10083093C /* TabBarController.swift in Sources */,
+				E9359454291E4C5F00138329 /* Shortcut.swift in Sources */,
+				E935944B291E4A5300138329 /* HeaderView.swift in Sources */,
 				E98A2457291D5CA40083093C /* NetworkManager.swift in Sources */,
+				E935946A291E68BE00138329 /* ServiceDetailsListView.swift in Sources */,
+				E9359460291E4E8600138329 /* EmptyStateView.swift in Sources */,
+				E9359452291E4C5F00138329 /* Slider.swift in Sources */,
 				E98A2459291D5CA40083093C /* UserDefaultsManager.swift in Sources */,
 				E98A2468291D776E0083093C /* AuthHelper.swift in Sources */,
+				E935943E291E4A3C00138329 /* HomeScreenViewModel.swift in Sources */,
 				E98A240E291D59BD0083093C /* AppDelegate.swift in Sources */,
 				E98A2466291D68B90083093C /* Localize.swift in Sources */,
+				E964772A291E707100E8E35F /* ServiceDetailsListVC.swift in Sources */,
+				E9359456291E4C5F00138329 /* Platform.swift in Sources */,
+				E935941E291E36BE00138329 /* MainScene.swift in Sources */,
+				E935943F291E4A3C00138329 /* HomeViewModel.swift in Sources */,
+				E9359435291E4A1D00138329 /* BannerView.swift in Sources */,
+				E9359441291E4A3C00138329 /* HomeScreen.swift in Sources */,
 				E98A2446291D5AEE0083093C /* LaunchVC.swift in Sources */,
+				E9359453291E4C5F00138329 /* Component.swift in Sources */,
+				E9359464291E501600138329 /* SafariView.swift in Sources */,
 				E98A2456291D5CA40083093C /* Keychain.swift in Sources */,
+				E9359457291E4C5F00138329 /* Banner.swift in Sources */,
+				E935944A291E4A5300138329 /* HeaderViewModel.swift in Sources */,
+				E9359461291E4E8600138329 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +886,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E935942C291E3B8900138329 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E9647726291E6E5700E8E35F /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
 		E98A245F291D61910083093C /* XCRemoteSwiftPackageReference "YassirUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:YAtechnologies/YassirUI.git";
@@ -749,17 +918,27 @@
 				version = 0.12.0;
 			};
 		};
-		E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */ = {
+		E98A2474291D9DF60083093C /* XCRemoteSwiftPackageReference "YassirAppKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/YAtechnologies/YassirHome-iOS.git";
+			repositoryURL = "https://github.com/YAtechnologies/YassirAppKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.3;
+				minimumVersion = 0.9.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E935942D291E3B8900138329 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E935942C291E3B8900138329 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		E9647727291E6E5700E8E35F /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9647726291E6E5700E8E35F /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
 		E98A2460291D61910083093C /* YassirUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E98A245F291D61910083093C /* XCRemoteSwiftPackageReference "YassirUI" */;
@@ -770,15 +949,10 @@
 			package = E98A2462291D63F50083093C /* XCRemoteSwiftPackageReference "YassirAuthUI" */;
 			productName = YassirAuthUI;
 		};
-		E98A2470291D88C50083093C /* YassirHomeKit */ = {
+		E98A2475291D9DF60083093C /* YassirAppKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */;
-			productName = YassirHomeKit;
-		};
-		E98A2472291D88C50083093C /* YassirHomeUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E98A246F291D88C50083093C /* XCRemoteSwiftPackageReference "YassirHome-iOS" */;
-			productName = YassirHomeUI;
+			package = E98A2474291D9DF60083093C /* XCRemoteSwiftPackageReference "YassirAppKit" */;
+			productName = YassirAppKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

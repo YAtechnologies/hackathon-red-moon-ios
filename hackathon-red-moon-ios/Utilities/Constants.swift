@@ -2,6 +2,11 @@
 import Foundation
 import UIKit
 
+enum DecodingError: Error {
+    case typeMismatch(Error, Error)
+    case badType
+}
+
 enum HomeSections: Int {
     case Control
     case Projects

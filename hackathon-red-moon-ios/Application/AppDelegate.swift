@@ -1,10 +1,20 @@
 
 
 import UIKit
+import YassirAppKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
     var window: UIWindow?
+    
+    var authorizationState: AuthorizationState {
+        if let currentAccount = AuthHelper.shared.currentAccount {
+            return .authorized(currentAccount.token)
+        } else {
+            return .none
+        }
+    }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -35,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let SignVC = SignVC()
         SignVC.delegate = self
         
-        let vc = isLoggedIn ? TabBarController() : SignVC
+        let vc = isLoggedIn ? MainViewController() : SignVC
         if !isLoggedIn {logout()}
         
         let navigationController = UINavigationController(rootViewController: vc)

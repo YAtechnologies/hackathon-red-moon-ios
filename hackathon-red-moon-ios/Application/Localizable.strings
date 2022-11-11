@@ -45,3 +45,24 @@
 "ASK_LOCATION_TITLE" = "Get the best content for you";
 "ASK_LOCATION_DESCRIPTION" = "Using your precise location allows us to provide you with the best content for your region and to support you faster when you request a ride.";
 "ASK_LOCATION_CONTINUE_BUTTON" = "Continue";
+
+"LOCATION_OUT_OF_COVERAGE_TITLE" = "No coverage in your area";
+"LOCATION_OUT_OF_COVERAGE_MESSAGE" = "We don't support your location yet. We are working hard to bring YASSIR to more places.";
+"NO_INTERNET_ACCESS_TITLE" = "No internet connection";
+"NO_INTERNET_ACCESS_MESSAGE" = "Please connect to the internet and try again";
+"LOADING_ERROR_TITLE" = "Loading error";
+"LOADING_ERROR_MESSAGE" = "The application encountered a loading error, please try again.";
+"UNKNOWN_ERROR_TITLE" = "Unknown error";
+"UNKNOWN_ERROR_MESSAGE" = "The application encountered an unknown error, please try again.";
+"RELOAD" = "Reload";
+
+// MARK: - HeaderView Texts
+ "LOCATION" = "Location";
+ "LOCATION_UNAVAILABLE" = "Location Unavailable";
+ "LOCATION_UNAVAILABLE_DESCRIPTION" = "Please allow location access in Settings.";
+ "SEARCHING" = "Searching...";
+
+// MARK: - HomeView Texts
+"WELCOME" = "Welcome";
+"WELCOME_DESCRIPTION" = "What can we do for you today?";
+

@@ -11,6 +11,42 @@
         }
       },
       {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "80683c20d8f15e10ac1ce605cca5008a295846bd",
+          "version": "5.14.1"
+        }
+      },
+      {
+        "package": "Stevia",
+        "repositoryURL": "https://github.com/freshOS/Stevia.git",
+        "state": {
+          "branch": null,
+          "revision": "70ccf38599c522a351607cf0c1b1f2da002679f0",
+          "version": "5.0.0"
+        }
+      },
+      {
+        "package": "YassirAnalytics",
+        "repositoryURL": "git@github.com:YAtechnologies/YassirAnalytics-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "30f0e79086be2c8e35f1baf6afc7cfaeac57119c",
+          "version": "0.6.0"
+        }
+      },
+      {
+        "package": "YassirAppKit",
+        "repositoryURL": "https://github.com/YAtechnologies/YassirAppKit.git",
+        "state": {
+          "branch": null,
+          "revision": "c50dbacaf97b42c821a32f58c82aa0f52b4a7e58",
+          "version": "0.11.0"
+        }
+      },
+      {
         "package": "YassirAuth",
         "repositoryURL": "git@github.com:YAtechnologies/YassirAuth.git",
         "state": {
@@ -35,15 +71,6 @@
           "branch": null,
           "revision": "c8d38b1e55adb68f02da12ac5868278b2b346848",
           "version": "1.3.0"
-        }
-      },
-      {
-        "package": "YassirHome",
-        "repositoryURL": "https://github.com/YAtechnologies/YassirHome-iOS.git",
-        "state": {
-          "branch": null,
-          "revision": "99d17acbf3b1d3324c411e60b4739a87eaa8fca9",
-          "version": "0.1.3"
         }
       },
       {
